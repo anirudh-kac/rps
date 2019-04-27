@@ -4,14 +4,15 @@ for(var i=0;i<n;i++){
   document.querySelectorAll(".option-button")[i].addEventListener("click",handleClick);
 }
 
-var master=Math.random();
-master=master*3;
-master=Math.floor(master);
-master=master+1;
+
 //alert(master);
 
 function handleClick(){
   var value=this.getAttribute("val");
+  var master=Math.random();
+  master=master*3;
+  master=Math.floor(master);
+  master=master+1;
   //alert(value);
   document.querySelector(".owl .owl-image").setAttribute("src","images/"+master+".png");
   if(value==master){
