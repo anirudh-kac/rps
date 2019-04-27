@@ -1,0 +1,49 @@
+/*font-family: 'Permanent Marker', cursive;*/
+
+body{
+  background-color: #393e46;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3{
+  text-align: center;
+  font-size: 2rem;
+}
+p{
+  text-align: center;
+}
+h1,h3,p{
+  color: #d65a31;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.owl{
+  text-align:center;
+}
+.owl-image{
+  width:250px;
+  height: 250px;
+}
+
+.option-image{
+  width:150px;
+  height:150px;
+}
+
+
+.opt-div{
+  display:inline-block;
+  padding:0 75px;
+}
+
+.buttons-div{
+  text-align: center;
+}
+.option-button{
+  background-color: #393e46;
+  border: 0;
+}
